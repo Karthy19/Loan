@@ -11,13 +11,12 @@ Deployed link:
 2. `/prediction`: Prediction form
 3. `/result`: API
     - Return: `[pred_prob, pred_class]`
-    - See `guide/API_Example.ipynb` for minimal example
+   
 
 ## Project Structure
 
 - Folders:
     - `dev`: development scripts
-    - `guide`: notebook for usage examples
     - `models`: pickled pre-trained model (scikit-learn pipeline)
     - `static`: css files
     - `template`: html files
@@ -28,9 +27,7 @@ Deployed link:
 
 - Deployment Files:
     - `requirements.txt`: package dependencies
-    - `runtime.txt`: Python version
-    - `Procfile`: commands for app's dynos on Heroku
-
+    
 ## Dependencies
 
 The app is built using Python 3.12.1, with the following dependencies:
